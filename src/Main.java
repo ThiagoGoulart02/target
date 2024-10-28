@@ -51,6 +51,9 @@ public class Main {
                     sum();
                     break;
                 case 4:
+                    findLogic();
+                    break;
+                case 5:
                     lampSwitch();
                     break;
                 default:
@@ -66,6 +69,7 @@ public class Main {
         System.out.println("[2] - Verifica se uma String possui a letra A");
         System.out.println("[3] - Exericio da soma");
         System.out.println("[4] - Exericio de descobrir a logica e completar o elemento");
+        System.out.println("[5] - Exericio dos tres interruptores e lampadas");
         System.out.println();
         System.out.print("Escolha uma opção: ");
     }
